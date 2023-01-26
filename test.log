@@ -1,0 +1,4 @@
+13:25:08 [INFO] name: A log message                  file="nvim/after/plugin/structlog.rc.lua", line=55
+13:25:08 [WARN] name: A log message with keyword arguments file="nvim/after/plugin/structlog.rc.lua", line=56, warning="something happened"
+00:55:39 [INFO] my_logger: A log message                  file="structlog.nvim/lua/structlog/logger.lua", line=98
+00:55:40 [WARN] my_logger: A log message with keyword arguments file="structlog.nvim/lua/structlog/logger.lua", line=104, warning="something happened"
