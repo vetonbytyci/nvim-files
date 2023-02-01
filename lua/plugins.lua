@@ -45,7 +45,6 @@ packer.startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
 
   use 'lewis6991/gitsigns.nvim'
-  use 'kdheepak/lazygit.nvim'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
 
@@ -71,5 +70,5 @@ packer.startup(function(use)
   }
   use 'jose-elias-alvarez/typescript.nvim'
   use 'pangloss/vim-javascript'
-  -- use 'MaxMEllon/vim-jsx-pretty'
+  use 'wuelnerdotexe/vim-astro'
 end)

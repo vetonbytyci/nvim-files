@@ -13,7 +13,7 @@ local styles = colorbuddy.styles
 Color.new('black', '#000000')
 Color.new('darkGrey', '#3a3b3c')
 Group.new('CursorLine', colors.none, colors.darkGrey, styles.NONE, colors.base1)
-Group.new('CursorLineNr', colors.blue, colors.black, styles.none, colors.base1)
+Group.new('CursorLineNr', colors.blue, colors.none, styles.none, colors.base1)
 Group.new('Visual', colors.none, colors.base03, styles.reverse)
 
 local cError = groups.Error.fg

@@ -147,3 +147,8 @@ nvim_lsp["sumneko_lua"].setup({
     },
   },
 })
+
+nvim_lsp["astro"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach
+})
