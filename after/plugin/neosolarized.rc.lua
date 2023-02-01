@@ -11,8 +11,9 @@ local groups = colorbuddy.groups
 local styles = colorbuddy.styles
 
 Color.new('black', '#000000')
-Color.new('CursorLine', colors.none, colors.base03, styles.NONE, colors.base1)
-Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base1)
+Color.new('darkGrey', '#3a3b3c')
+Group.new('CursorLine', colors.none, colors.darkGrey, styles.NONE, colors.base1)
+Group.new('CursorLineNr', colors.blue, colors.black, styles.none, colors.base1)
 Group.new('Visual', colors.none, colors.base03, styles.reverse)
 
 local cError = groups.Error.fg
@@ -28,5 +29,5 @@ Group.new("DiagnosticUnderlineError", colors.none, colors.none, styles.undercurl
 Group.new("DiagnosticUnderlineWarn", colors.none, colors.none, styles.undercurl, cWarn)
 Group.new("DiagnosticUnderlineInfo", colors.none, colors.none, styles.undercurl, cInfo)
 Group.new("DiagnosticUnderlineHint", colors.none, colors.none, styles.undercurl, cHint)
-
-
+Group.new("StatusLine", colors.red, colors.red, styles.NONE)
+Group.new("StatusLineNC", colors.red, colors.red, styles.NONE)

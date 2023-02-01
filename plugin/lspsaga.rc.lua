@@ -9,7 +9,7 @@ saga.setup({
     title = true,
     -- border type can be single,double,rounded,solid,shadow.
     border = 'solid',
-    winblend = 1,
+    winblend = 0,
     expand = '',
     collapse = '',
     preview = ' ',

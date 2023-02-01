@@ -2,6 +2,7 @@ require('base')
 require('highlights')
 require('maps')
 require('plugins')
+require('lualine-theme')
 
 local has = function(x)
   return vim.fn.has(x) == 1
