@@ -71,4 +71,5 @@ packer.startup(function(use)
   use 'jose-elias-alvarez/typescript.nvim'
   use 'pangloss/vim-javascript'
   use 'wuelnerdotexe/vim-astro'
+  use 'roobert/tailwindcss-colorizer-cmp.nvim'
 end)
