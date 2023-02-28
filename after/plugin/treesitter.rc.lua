@@ -23,6 +23,7 @@ ts.setup {
     "html",
     "lua",
     "astro",
+    "prisma"
   },
   autotag = {
     enable = true,
