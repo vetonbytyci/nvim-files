@@ -9,7 +9,7 @@ mason.setup {
 }
 
 lspconfig.setup {
-  ensure_installed = { 'tailwindcss', 'tsserver', 'html', 'cssls', 'sumneko_lua', 'astro', 'prismals' }
+  ensure_installed = { 'tailwindcss', 'tsserver', 'html', 'cssls', 'lua_ls', 'astro', 'prismals' }
 }
 
 require 'lspconfig'.tailwindcss.setup {}
