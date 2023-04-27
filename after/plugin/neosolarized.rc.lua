@@ -31,3 +31,5 @@ Group.new("DiagnosticUnderlineInfo", colors.none, colors.none, styles.undercurl,
 Group.new("DiagnosticUnderlineHint", colors.none, colors.none, styles.undercurl, cHint)
 Group.new("StatusLine", colors.red, colors.red, styles.NONE)
 Group.new("StatusLineNC", colors.red, colors.red, styles.NONE)
+Group.new("TelescopeResultsDiffChange", colors.green, colors.none, styles.NONE)
+Group.new("TelescopeResultsDiffAdd", colors.green, colors.none, styles.NONE)
