@@ -60,7 +60,7 @@ keymap("n", "gr", "<cmd>Lspsaga rename ++project<CR>")
 keymap("n", "gd", "<cmd>Lspsaga peek_definition<CR>")
 
 -- Go to Definition
-keymap("n", "gd", "<cmd>Lspsaga goto_definition<CR>")
+keymap("n", "gD", "<cmd>Lspsaga goto_definition<CR>")
 
 -- Show line diagnostics you can pass argument ++unfocus to make
 -- show_line_diagnostics float window unfocus
