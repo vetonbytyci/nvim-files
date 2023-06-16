@@ -25,7 +25,7 @@ log.configure({
           { "msg" },
           { blacklist = { "level", "logger_name" } }
         ),
-        sink = log.sinks.NvimNotify(),
+        sink = log.sinks.Console(),
       },
       {
         level = log.level.TRACE,

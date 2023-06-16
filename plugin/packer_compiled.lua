@@ -121,11 +121,6 @@ _G.packer_plugins = {
     path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/hop.nvim",
     url = "https://github.com/phaazon/hop.nvim"
   },
-  ["live-server"] = {
-    loaded = true,
-    path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/live-server",
-    url = "https://github.com/manzeloth/live-server"
-  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -202,10 +197,10 @@ _G.packer_plugins = {
     path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-notify"] = {
+  ["nvim-surround"] = {
     loaded = true,
-    path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/nvim-notify",
-    url = "https://github.com/rcarriga/nvim-notify"
+    path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/nvim-surround",
+    url = "https://github.com/kylechui/nvim-surround"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -271,6 +266,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-javascript"] = {
     loaded = true,

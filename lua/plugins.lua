@@ -20,19 +20,19 @@ packer.startup(function(use)
       require('lspsaga').setup({})
     end,
   })
-  use 'L3MON4D3/LuaSnip'      -- Snippet
-  use 'hoob3rt/lualine.nvim'  -- Statusline
-  use 'onsails/lspkind-nvim'  -- vscode-like pictograms
-  use 'hrsh7th/cmp-buffer'    -- nvim-cmp source for buffer words
-  use 'hrsh7th/cmp-nvim-lsp'  -- nvim-cmp source for neovim's built-in lsp
-  use 'hrsh7th/nvim-cmp'      -- Completion
+  use 'L3MON4D3/LuaSnip' -- Snippet
+  use 'hoob3rt/lualine.nvim' -- Statusline
+  use 'onsails/lspkind-nvim' -- vscode-like pictograms
+  use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
+  use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in lsp
+  use 'hrsh7th/nvim-cmp' -- Completion
   use 'neovim/nvim-lspconfig' -- LSP
   use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
   use 'jose-elias-alvarez/null-ls.nvim' -- use neovim as a language server to inject lsp diagnositcs, code actions, and more via Lua
-  use 'MunifTanjim/prettier.nvim'       -- Prettier plugin for neovim
+  use 'MunifTanjim/prettier.nvim' -- Prettier plugin for neovim
   use 'MunifTanjim/eslint.nvim'
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
@@ -58,10 +58,8 @@ packer.startup(function(use)
   }
   use 'Tastyep/structlog.nvim'
   use 'github/copilot.vim'
-  use 'rcarriga/nvim-notify'
   use 'tpope/vim-commentary'
   use 'JoosepAlviste/nvim-ts-context-commentstring'
-  use 'manzeloth/live-server'
   use 'karb94/neoscroll.nvim'
   use { 'gen740/SmoothCursor.nvim',
     config = function()
@@ -83,4 +81,5 @@ packer.startup(function(use)
     'kylechui/nvim-surround',
     tag = '*'
   }
+  use 'tpope/vim-fugitive'
 end)
