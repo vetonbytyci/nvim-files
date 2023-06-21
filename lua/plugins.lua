@@ -84,4 +84,11 @@ packer.startup(function(use)
     tag = '*'
   }
   use 'tpope/vim-fugitive'
+  use {
+    'folke/noice.nvim',
+    requires = {
+      "rcarriga/nvim-notify",
+    }
+  }
+
 end)
