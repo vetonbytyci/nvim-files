@@ -14,11 +14,7 @@ packer.startup(function(use)
 	})
 	use("kyazdani42/nvim-web-devicons") -- file icons
 	use({
-		"glepnir/lspsaga.nvim",
-		branch = "main",
-		config = function()
-			require("lspsaga").setup({})
-		end,
+		"nvimdev/lspsaga.nvim",
 	})
 	use("L3MON4D3/LuaSnip") -- Snippet
 	use("hoob3rt/lualine.nvim") -- Statusline
