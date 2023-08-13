@@ -261,6 +261,11 @@ _G.packer_plugins = {
     path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
     url = "https://github.com/nvim-telescope/telescope-media-files.nvim"
   },
+  ["telescope-repo.nvim"] = {
+    loaded = true,
+    path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/telescope-repo.nvim",
+    url = "https://github.com/cljoly/telescope-repo.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/vetonbytyci/.local/share/nvim/site/pack/packer/start/telescope.nvim",

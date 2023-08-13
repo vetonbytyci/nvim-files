@@ -10,6 +10,10 @@ saga.setup({
 	symbol_in_winbar = {
 		enable = false,
 	},
+	hover = {
+		max_width = 0.9,
+		max_height = 0.8,
+	},
 	lightbulb = {
 		enable = false,
 	},

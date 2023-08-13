@@ -37,6 +37,7 @@ packer.startup(function(use)
 	use("nvim-telescope/telescope.nvim")
 	use("nvim-telescope/telescope-file-browser.nvim")
 	use("nvim-telescope/telescope-media-files.nvim")
+	use("cljoly/telescope-repo.nvim")
 
 	use("akinsho/nvim-bufferline.lua")
 	use("norcalli/nvim-colorizer.lua")
