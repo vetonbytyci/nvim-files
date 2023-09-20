@@ -87,4 +87,6 @@ packer.startup(function(use)
 			"rcarriga/nvim-notify",
 		},
 	})
+	use({ "akinsho/git-conflict.nvim", tag = "*" })
+	use({ "chentoast/marks.nvim" })
 end)
